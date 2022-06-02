@@ -7,9 +7,9 @@ be used toward business decisions or marketing efforts.
 * I then performed EDA by using correlation and bivariate analysis techniques. As one would expect, those with higher balance had a higher credit limit, and just about 
 all frequency attributes were positively correlated with their general attribute counterpart.
 
-* Applied K-Means and PCA to the data in attempt to create appropriate clusters based on the data. 
+* Applied K-Means using PCA as well as UMAP to the data in attempt to create appropriate clusters based on the data. 
 
-* Using a scree plot/elbow method, I elected to use 4 clusters to split the data, and found that 4 clusters represented the data fairly well.
+* Using a scree plot/elbow method, I elected to use 4 clusters to split the data. I found that 4 clusters represented the data fairly well with PCA, and UMAP was an upgrade from PCA in that the 4 clusters were split more elaborately and group size was much more balanced.
 
 
 ## Code and Resources Used:
@@ -59,7 +59,7 @@ The groups are well distinguished when plotting purchases from account against a
 
 The clusters formed following UMAP as a dimensionality reduction technique found a good distinction between cash advance and installment purchases attributes.
 
-![alt text](
+![alt text](https://github.com/elayer/CreditCardClusteringProject/blob/main/umap_plot_1.png "UMAP Plot 1")
 
 ## Future Improvements
 I wonder if applying and trying other clustering methods such as DBSCAN or utilizing the PyCaret library could reveal deeper patterns I may not have noticed in my analysis.
