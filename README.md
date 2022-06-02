@@ -23,6 +23,12 @@ all frequency attributes were positively correlated with their general attribute
 * Knowledge behind PCA and K-Means clustering I originally learned and applied by taking a course from the following resource:
 https://learn.365datascience.com/
 
+* I learned a lot about UMAP from the following link as well as a helpful YouTube video visualizing the process and intricacies of UMAP:
+https://towardsdatascience.com/umap-dimensionality-reduction-an-incredibly-robust-machine-learning-algorithm-b5acb01de568
+
+* YouTube video link:
+https://www.youtube.com/watch?v=eN0wFzBA4Sc
+
 ## Data Collection:
 
 * The data used for this project comes from Kaggle at the following link:
@@ -51,6 +57,9 @@ Below are a few examples of how K-Means defined the data.
 
 The groups are well distinguished when plotting purchases from account against account balance and purchase transactions.
 
+The clusters formed following UMAP as a dimensionality reduction technique found a good distinction between cash advance and installment purchases attributes.
+
+![alt text](
+
 ## Future Improvements
-I didn't use the most advanced or sophisticated clustering or pre-processing methods for this project in particular. Therefore, I wonder if applying and trying other
-clustering methods such as DBSCAN or utilizing the PyCaret library could reveal deeper patterns I may not have noticed in my analysis.
+I wonder if applying and trying other clustering methods such as DBSCAN or utilizing the PyCaret library could reveal deeper patterns I may not have noticed in my analysis.
